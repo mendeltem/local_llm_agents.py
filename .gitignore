@@ -1,3 +1,49 @@
-# Ignore System Files
-__py
+# ============================================================================
+# LOCAL_LLM Project - .gitignore
+# ============================================================================
 
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- PDFs & Papers (large binary files) ---
+papers/
+papers_summarys/
+papers_combined.txt
+temp_pdf_context.txt
+
+# --- Training Data & Model Checkpoints ---
+training_data/
+mistral-finetuned/
+*.jsonl
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# --- Logs ---
+logs/
+fine_tune_log/
+agent_log.txt
+*.log
+
+# --- Runtime / Generated Files ---
+sessions/
+server_connection.json
+processed_files_log.json
+paper_links/
+
+# --- SLURM output ---
+slurm-*.out
+slurm-*.err
+
+# --- OS & IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~

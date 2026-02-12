@@ -1,1 +1,8 @@
-{"host": "s-sc-node024", "port": 54321, "model_size": "tiny", "model_path": "/sc-resources/llms/mistralai/Mistral-7B-Instruct-v0.3"}
+{
+  "host": "s-sc-gpu026",
+  "port": 54321,
+  "model_size": "small",
+  "model_path": "/sc-resources/llms/Qwen/Qwen3-14B",
+  "timestamp": "2026-02-12T11:57:05.798952",
+  "buffer_size": 10485760
+}

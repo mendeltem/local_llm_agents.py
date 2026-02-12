@@ -1,0 +1,6 @@
+# Research Topic
+# Write your research topic / keywords below (one topic per line).
+# Lines starting with # are ignored.
+# Multiple lines are combined with " | " as a compound topic.
+
+white matter hyperintensities segmentation deep learning MRI
